@@ -52,3 +52,7 @@ async function catWalk() {
 }
 
 window.addEventListener('load', catWalk);
+
+function wait(ms){
+  return new promise (resolve => setTimeout(resolve, ms));
+}
